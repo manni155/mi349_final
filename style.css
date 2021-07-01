@@ -9,7 +9,7 @@ html {
     color: #f6f5f1;
 }
 
-.mainButton {
+a.mainButton {
     display: flexbox;
     width: 400px;
     height: 400px;
@@ -58,7 +58,7 @@ h1 {
     color: #c14d57;
 }
 
-.contentButton {
+a.contentButton {
     display: flexbox;
     width: 400px;
     height: 400px;
@@ -73,6 +73,7 @@ h1 {
 h2 {
     border-top: 2px solid #c14d57;
     font-size: 3em;
+    padding: 20px;
 }
 
 h3 {
