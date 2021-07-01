@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Contact</title>
 </head>
 <body>
-    
+    <header>
+    <h1 class="nonMainHeading">Thomas Manning</h1>
+    <nav>
+        <ul class="nav-bar">
+            <li><a class="otherPage" href="index.html">Home</a></li>
+            <li><a class="otherPage" href="about.html">About</a></li>
+            <li><a class="currentPage" href="contact.html">Contact</a></li>
+            <li><a class="otherPage" href="content.html">Content</a></li>
+        </ul>
+    </nav>
+    </header>
+    <section>
+        <h3>Contact Me!</h3>
+        <form class="contactForm">
+            <label>Name:
+                <input type="text">
+            </label>
+            <p></p>
+            <label>eMail:
+                <input type="email">
+            </label>
+            <p></p>
+            <label>Reason for Contact:
+                <select name="reason" id="contact-dropdown">
+                    <option value="hi">Saying Hi!</option>
+                    <option value="contractor">Looking For a Contractor</option>
+                    <option value="interview">Interested in an Interview</option>
+                    <option value="question">Asking a Question</option>
+                </select>
+            </label>
+            <p></p>
+            <label>Open comments:
+                <input type="text" size="100">
+            </label>
+            <p></p>
+            <button class="submitContact">Submit</button>
+        </form>
+        <img class="imageMe" src="me.jpg" alt="An image of Thomas Manning holding a saxophone"> 
+    </section>
 </body>
 </html>

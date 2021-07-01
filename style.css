@@ -1,0 +1,128 @@
+html {
+    background-color: #3c3a36;
+    font-family: Habibi;
+    text-align: center;
+    color: #f6f5f1;
+}
+
+.otherPage { 
+    color: #f6f5f1;
+}
+
+.mainButton {
+    display: flexbox;
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    margin: 40px;
+    background-color: #89bb45;
+    font-size: 2em;
+    font-family: Habibi;
+    color: #f6f5f1;
+}
+
+h1 {
+    font-family: Nunito;
+    font-size: 4em;
+}
+
+#mainPageHeading {
+    font-size: 2.8em;
+    padding: 20px;
+    margin: 20px;
+    border-bottom: 2px solid #c14d57;
+}
+
+.nonMainHeading {
+    text-align: left;
+    padding: 10px;
+    margin: 20px;
+    font-size: 2.8em;
+}
+
+.nav-bar  {
+    text-align: left;
+}
+
+.nav-bar > li {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 2em;
+    display: inline-block;
+    color: #f6f5f1;
+    background-color: #3c3a36;
+
+}
+
+.currentPage {
+    color: #c14d57;
+}
+
+.contentButton {
+    display: flexbox;
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    margin: 40px;
+    background-color: #89bb45;
+    font-size: 2em;
+    font-family: Habibi;
+    color: #f6f5f1;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 3em;
+    text-align: left;
+    border-top: 2px solid #c14d57;
+    padding: 20px;
+    margin: 20px;
+}
+
+.contactForm {
+    text-align: left;
+    float: left;
+    display: inline-block;
+    font-size: 2em;
+    padding: 20px;
+}
+
+.imageMe {
+    display: inline-block;
+    float: inline-end;
+    padding: 20px;
+    height: 500px;
+    width: 500px;
+}
+
+.submitContact {
+    background-color: #89bb45;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    color: #f6f5f1;
+    font-family: Habibi;
+}
+
+.aboutMessage {
+    font-size: 2.2em;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.aboutText {
+    display: flex;
+    flex-direction: column;
+}
+
+.imageMe2 {
+    padding: 20px;
+    float: right;
+}
+
+
