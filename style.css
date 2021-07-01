@@ -10,10 +10,11 @@ html {
 }
 
 a.mainButton {
-    display: flexbox;
+    display: inline-block;
     width: 400px;
     height: 400px;
     padding: 40px;
+    line-height: 400px;
     margin: 40px;
     background-color: #89bb45;
     font-size: 2em;
@@ -59,10 +60,11 @@ h1 {
 }
 
 a.contentButton {
-    display: flexbox;
+    display: inline-block;
     width: 400px;
     height: 400px;
     padding: 40px;
+    line-height: 400px;
     margin: 40px;
     background-color: #89bb45;
     font-size: 2em;
